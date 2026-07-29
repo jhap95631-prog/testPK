@@ -1,14 +1,13 @@
-# include<stdio.h>
-
-int main() {
-    int a, b;
-    printf("enter a");
-    scanf("%d" ,&a);
-
-    printf("enter b");
-    scanf("%d" , &b);
+#include <stdio.h>
+//area of square
+int main()  {
+    float side;
+    printf(" enter side");
+    scanf("%f" , &side);
     
-    int sum =a+b;
-    printf("sum is: %d", sum);
+    printf("area is : %f" ,side * side);
     return 0;
-}
+}    
+    
+     
+    
