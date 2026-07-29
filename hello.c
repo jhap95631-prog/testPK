@@ -1,13 +1,21 @@
-#include <stdio.h>
-//area of square
+#include<stdio.h>
+#include<math.h>
+
 int main()  {
-    float radius;
-    printf(" enter radius");
-    scanf("%f" , &radius);
-    
-    printf("area is : %f" ,3.14 *33 radius * radius);
+    int x;
+    printf("enter a number: ");
+    scanf("%d", &x);
+    printf("%d", x % 2 ==0);
     return 0;
-}    
+}
+
+   
+
+
+
+
+
+   
     
      
     
