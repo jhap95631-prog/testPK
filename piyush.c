@@ -2,18 +2,22 @@
 
 int main() {
     int n;
-    do {
-        printf("enter number: ");
-        scanf("%d", &n);
-        printf("%d\n", n);
+    printf("enter number : ");
+    scanf("%d", &n);
 
-        if (n % 2 != 0) {
-            break;
-        }    
-        
-     } while (1);
-     printf("thank you");
-    }
+    int fact = 1;
+    for (int i=1; i<=n; i++) {
+        fact =fact * i;
+    }    
+    
+    printf("final factorial is : %d", fact);
+
+    return 0;
+}    
+
+
+
+
 
     
     
