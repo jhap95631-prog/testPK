@@ -2,17 +2,22 @@
 
 int main() {
     int n;
-    printf("enter number : ");
-    scanf("%d", &n);
-    
-    for(int i=1; i<=10; i++) {
-        printf("%d \n", n*i);
-    }
-        
-    return 0;
-    }
-        
+    do {
+        printf("enter number: ");
+        scanf("%d", &n);
+        printf("%d\n", n);
 
+        if (n % 2 != 0) {
+            break;
+        }    
+        
+     } while (1);
+     printf("thank you");
+    }
+
+    
+    
+        
 
 
 
