@@ -1,19 +1,20 @@
 #include<stdio.h>
+//declaration/prototype
+void printhello();
 
 int main() {
-    int n;
-    printf("enter number : ");
-    scanf("%d", &n);
-
-    int fact = 1;
-    for (int i=1; i<=n; i++) {
-        fact =fact * i;
-    }    
-    
-    printf("final factorial is : %d", fact);
-
+    printhello(); //function call
+    printhello();
+    printhello();
     return 0;
 }    
+
+    //function defination
+    void printhello() {
+        printf("hello!\n");
+    }    
+        
+    
 
 
 
