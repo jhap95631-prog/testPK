@@ -1,23 +1,28 @@
 #include<stdio.h>
-//declaration/prototype
-void printhello();
-void printGoodbye();
+ void namaste();
+ void bonjour();
 
 int main() {
-    printhello(); //function call
-    printGoodbye();
-    printhello();
+     printf("enter f for french & i for indian : ");
+     char ch;
+     scanf("%c", &ch);
+
+     if(ch == 'i') {
+        namaste();
+     } else{
+        bonjour();   
+     }
+
     return 0;
 }    
 
-    //function defination
-    void printhello() {
-        printf("hello!\n");
-    }
-    
-    void printGoodbye() {
-        printf("Goodbye:)\n");
-    }    
+void namaste() {
+    printf("namaste\n");
+}
+
+void bonjour() {
+    printf("bonjour\n");
+}
         
     
 
