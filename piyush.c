@@ -1,24 +1,20 @@
 #include<stdio.h>
- 
-int sum(int a, int b);
-void printtable(int n);
+#include<math.h>
+
+void calculateprice(float value);
 
 int main() {
-      int n;
-      printf("enter first number :");
-      scanf("%d", &n);
+    //float value = 100.0;
+    //calculateprice(value);
+   // return 0;
 
-      printtable(n);//argument /actual parameter
 
-      return 0;
-}     
 
-int sum(int x, int y) {
-    return x + y;
-}
-      
-void printtable(int n) {//parameter/formal parmeter
-    for(int i=1; i<=10; i++) {
-        printf("%d\n", i*n);
-    }
-}         
+   int n=4;
+   printf("%f", pow(n ,2));
+
+   return 0;
+}   
+ 
+ 
+       
