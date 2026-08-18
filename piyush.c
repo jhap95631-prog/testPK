@@ -1,32 +1,26 @@
 #include<stdio.h>
-#include<math.h>
 
-float squareAREA(float side);
-float circleAREA(float radius);
-float rectangleArea(float a, float);
+int fact(int n);
 
 int main() {
-    float a = 5.0;
-    float b = 10.0;
-
-    printf("area is : %f", rectangleArea(a, b));
+    printf("factorial is : %d",fact(5));
     return 0;
 }
 
-float squareArea(float side) {
-    return side *side;
+int fact(int n) {
+    if(n == 0) {
+        return 1;
+    }
+    int factNm1 = fact(n-1);
+    int factN = factNm1 * n;
+    return factN;
 }
 
-float circleArea(float rad) {
-    return 3.14 * rad *rad;
-}
-
-float rectangleArea(float a, float b) {
-    return a * b;
-}    
+    
 
 
 
- 
- 
-       
+
+
+
+        
