@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#box {
+    display: flex;
+    justify-content: end;
+    align-items: centre;
+    width: 400px;
+    height: 400px;
+    background-color: beige;
+}
+
+#box1 {
+    width: 100px;
+    height: 100px;
+    background-color:brown;
+}
+
+#box2 {
+    width :130px;
+    height: 100px;
+    background-color: blue;
+}
+
+#box3 {
+    width:100px;
+    height:100px;
+    background-color: chartreuse;
+}
+    
+
